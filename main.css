@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  width: 95vw;
+  height: 95vh;
+  background: lightgray;
+  display: flex;
+}
+.left-container {
+  width: 50vw;
+  height: 90vh;
+  background: rgba(0, 128, 0, 0.8);
+  margin: 1rem 1.5rem;
+}
+.text {
+  width: 50vw;
+  height: 70vh;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+}
+p {
+  margin: 1rem;
+}
+.input {
+  width: 40vw;
+  height: 15vh;
+  background: #fff;
+  margin: 0.2rem auto;
+}
+.right-container {
+  width: 35vw;
+  height: 80vh;
+  background: rgba(0, 0, 255, 0.6);
+  margin: 1rem 0;
+}
+img {
+  width: 5rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.caught {
+  width: 50px;
+  height: 50px;
+  background: conic-gradient(rgb(152, 251, 152) 300deg, grey 0deg);
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
